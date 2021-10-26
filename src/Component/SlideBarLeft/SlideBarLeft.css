@@ -1,0 +1,43 @@
+.slideBarLeftContainer{
+    flex: 2;
+    background-color: #F0F2F5;
+    height: calc(100vh - 60px);
+    left: 0;
+    top: 60px;
+    position: sticky;
+}
+
+.slideBarLeftContainer:hover{
+    overflow-y: scroll;
+}
+
+.leftBarWrapper{
+    margin-top: 10px;
+}
+
+.leftBarList{
+    margin-left: 10px;
+}
+
+.leftBarListItem{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.leftBarListItem:hover{
+    background-color: #cdcecf;
+}
+
+.leftBarIcon{
+    font-size: 30px !important;
+    margin-left: 10px !important;
+    color: #1A7CE8;
+}
+
+.leftBarItemName{
+    margin-left: 20px;
+}

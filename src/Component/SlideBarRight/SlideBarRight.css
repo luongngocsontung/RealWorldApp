@@ -1,0 +1,8 @@
+.slideBarRightContainer{
+    flex: 2;
+    background-color: #F0F2F5;
+    height: calc(100vh - 60px);
+    left: 0;
+    top: 60px;
+    position: sticky;
+}

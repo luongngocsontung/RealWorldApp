@@ -1,0 +1,48 @@
+.postContainer{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.postUser{
+    display: flex;
+    align-items: center;
+}
+
+.postUserName{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.imgPost{
+    width: 100%;
+}
+
+.postInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.interactItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 33%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.interactItem:hover{
+    background-color: #F0F2F5;
+}

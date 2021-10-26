@@ -1,0 +1,115 @@
+.topBarContainer{
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+
+.topBarLeft{
+    flex: 2;
+    display: flex;
+}
+
+.logo{
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.searchInput{
+    height: 20px;
+    border: none;
+    background-color: #F0F2F5;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.topBarMiddle{
+    flex: 5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topBarIconMiddle{
+    display: flex;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.topBarIconMiddle:hover{
+    background-color: #F0F2F5;
+}
+
+.middleIcon{
+    font-size: 35px !important;
+}
+
+.topBarRight{
+    flex: 2;
+}
+
+.topBarIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.topBarIconAvatar{
+    display: flex;
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #F0F2F5;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topBarIconAvatar:hover{
+    background-color: #cdcecf;
+}
+
+.avatar{
+    margin-left: 5px;
+}
+
+.userName{
+    width: 100%;
+    text-align: center;
+}
+
+.topBarIconItem{
+    display: flex;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #F0F2F5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.topBarIconItem:hover{
+    background-color: #cdcecf;
+}
